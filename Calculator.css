@@ -1,0 +1,32 @@
+.calculator_con {
+    border: solid black 2px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(129, 127, 127);
+    width: 250px;
+    margin: auto;
+    background-color: rgba(72, 13, 101, 0.785);
+}
+.b_con {
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button {
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(166, 166, 235);
+    font-weight: 1000;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(41, 40, 40);
+}
+#display {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(114, 222, 222);
+}
+#equalsto {
+    background-color: rgb(220, 79, 79);
+    color: white;
+}

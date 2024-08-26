@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <script src="Calculator.js"></script>
+</head>
+<body><br><br>
+    <div align="center" class="calculator_con">
+        <h1>Calculator</h1>
+        <input type="text" id="display">
+        <div class="b_con">
+            <button onclick="curdis='';document.querySelector('#display').value=curdis;">C</button>
+            <button onclick="curdis=curdis+'1';document.querySelector('#display').value=curdis;">1</button>
+
+            <button onclick="curdis=curdis+'2';document.querySelector('#display').value=curdis;">2</button>
+
+
+            <button onclick="curdis=curdis+'3';document.querySelector('#display').value=curdis;">3</button>
+
+
+            <button onclick="curdis=curdis+'4';document.querySelector('#display').value=curdis;">4</button>
+
+            <button onclick="curdis=curdis+'5';document.querySelector('#display').value=curdis;">5</button>
+
+            <button onclick="curdis=curdis+'6';document.querySelector('#display').value=curdis;">6</button>
+
+            <button onclick="curdis=curdis+'7';document.querySelector('#display').value=curdis;">7</button>
+
+            <button onclick="curdis=curdis+'8';document.querySelector('#display').value=curdis;">8</button>
+
+            <button onclick="curdis=curdis+'9';document.querySelector('#display').value=curdis;">9</button>
+
+            <button onclick="curdis=curdis+'0';document.querySelector('#display').value=curdis;">0</button>
+
+            <button onclick="curdis=curdis+'/';document.querySelector('#display').value=curdis;">/</button>
+            
+            <button onclick="curdis=curdis+'*';document.querySelector('#display').value=curdis;">*</button>
+
+            <button onclick="curdis=curdis+'-';document.querySelector('#display').value=curdis;">-</button>
+
+            <button onclick="curdis=curdis+'+';document.querySelector('#display').value=curdis;">+</button>
+
+            <button id="equalsto" onclick="
+            let result=eval(curdis);
+            curdis=result;document.querySelector('#display').value=curdis;">=</button>
+        </div>
+    </div>
+</body>
+</html>
